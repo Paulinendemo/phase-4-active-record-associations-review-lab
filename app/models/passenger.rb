@@ -1,4 +1,5 @@
+
 class Passenger < ApplicationRecord
     has_many :rides
-    has_many :taxis, through: :ride
-end
+    has_many :taxis, through: :rides
+  end
